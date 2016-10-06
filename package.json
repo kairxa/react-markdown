@@ -1,5 +1,5 @@
 {
-  "name": "react-markdown",
+  "name": "react-native-markdown",
   "description": "Renders Markdown as React components",
   "version": "2.4.2",
   "keywords": [
@@ -8,8 +8,8 @@
     "react",
     "react-component"
   ],
-  "main": "src/react-markdown.js",
-  "umd": "umd/react-markdown.js",
+  "main": "src/react-native-markdown.js",
+  "umd": "umd/react-native-markdown.js",
   "scripts": {
     "build": "NODE_ENV=production webpack && NODE_ENV=production webpack --config webpack.config.demo.js",
     "coverage": "istanbul cover node_modules/.bin/_mocha -- --reporter spec",
